@@ -1,0 +1,15 @@
+{
+  "name": "mlb-dfs-monorepo",
+  "private": true,
+  "dependencies": {
+    "next": "14.2.14",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm run start"
+  }
+}
