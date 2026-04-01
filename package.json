@@ -1,0 +1,10 @@
+{
+  "name": "mlb-dfs-monorepo",
+  "private": true,
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm run start"
+  }
+}
