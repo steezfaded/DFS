@@ -105,6 +105,8 @@ npm run dev
 ## Vercel Deployment (monorepo root)
 
 The repository now includes a root Next.js app and root Next config files, so Vercel can deploy directly from repo root without custom root-directory configuration (avoids root 404/no-framework-detected issues). The original `frontend/` folder is retained for reference during migration.
+If deploying from the repository root, Vercel must build the Next.js app from `frontend/`. This repo includes root `package.json` (with Next.js dependency for Vercel framework detection) and `vercel.json` so Preview/Production deployments build and serve the frontend correctly (avoids root 404 / no-nextjs-detected failures).
+If deploying from the repository root, Vercel must build the Next.js app from `frontend/`. This repo includes root `package.json` and `vercel.json` so Preview/Production deployments build and serve the frontend correctly (avoids root 404 deployments).
 
 ## API Endpoints
 
