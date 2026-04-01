@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+mlb_dfs.db
+.venv/
+node_modules/
+.next/
+.env
